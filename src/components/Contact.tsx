@@ -1,15 +1,15 @@
-import  {useState} from 'react'
+import  { FormEvent, useState} from 'react'
 
 const Contact = () => {
   const [name, setName] = useState('');
   const [email, setEmail] = useState('')
   const [message, setMessage] = useState('');
 
-  function encode(data) {
+  function encode(data:any) {
     return Object.keys(data).map((key) => encodeURIComponent(key) + "=" + encodeURIComponent(data[key])).join("&");
   }
 
-  const  handleSubmit = (e) => {
+  const  handleSubmit = (e: FormEvent<HTMLFormElement>) => {
     e.preventDefault();
     fetch("/", {
       method: "POST",
@@ -44,7 +44,7 @@ const Contact = () => {
           </div>
         </div>
         <form
-          netlify
+          
           name="contact"
           onSubmit={handleSubmit}
           className="lg:w-1/3 md:w-1/2 flex flex-col md:ml-auto w-full md:py-8 mt-8 md:mt-0">
