@@ -1,9 +1,9 @@
 const Footer = () => {
   const navLinks = [
-    { label: "Home", href: "/" },
-    { label: "Past Work", href: "/projects" },
-    { label: "Skills", href: "/skills" },
-    { label: "Contact Me", href: "/contact" },
+    { label: "Home", href: "#about" },
+    { label: "Projects", href: "#projects" },
+    { label: "Skills", href: "#skills" },
+    { label: "Contact Me", href: "#contact" },
   ];
   return (
     <footer className="bg-gray-900 py-8">
