@@ -9,10 +9,7 @@ const Skills = () => {
             Skills &amp; Technologies
           </h1>
           <p className="text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae
-            vero assumenda facere hic harum possimus. Quos ipsam blanditiis at
-            iure velit neque cupiditate a est laborum ipsa. Quisquam, laudantium
-            dignissimos.
+          Technologies I know
           </p>
         </div>
         <div className="flex flex-wrap lg:w-4/5 sm:mx-auto sm:mb-2 -mx-2">

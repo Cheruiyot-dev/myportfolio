@@ -13,10 +13,7 @@ const Projects = () => {
           </h1>
 
           <p className="lg:w-2/3 mx-auto leading-relaxed text-base">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti
-            sit eum porro eveniet ipsum maxime magni illo iusto architecto iste
-            est voluptatibus illum repudiandae, voluptatum laborum saepe
-            quibusdam doloremque quos?
+          I Love backend and when it comes to languages,I am captivated by Python at the moment. Its simplicity and readability, coupled with its versatility, make it an incredible language for web development, data analysis, automation, and much more.With powerful frameworks like Flask, Django, and especially FastAPI, Python allows me to build robust and scalable applications effortlessly. Its clean syntax and vast ecosystem of libraries enable me to tackle diverse challenges with ease, from building RESTful APIs to performing complex data manipulations.Furthermore, Python's cross-platform compatibility and seamless integration with other technologies make it the ideal choice for full-stack development.
           </p>
         </div>
         <div className="flex flex-wrap -m-4">
